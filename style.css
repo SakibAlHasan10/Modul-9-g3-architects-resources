@@ -9,10 +9,11 @@
 
 .section-title {
     color: #131313;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     font-style: normal;
     font-weight: 700;
 }
+
 .btn {
     width: 150px;
     height: 50px;
@@ -53,8 +54,6 @@
     font-weight: 500;
     line-height: 1.5rem;
 }
-
-
 
 .nav ul li a {
     text-decoration: none;
@@ -110,11 +109,13 @@ main {
     width: 45%;
     padding-left: 3rem;
 }
-.love-and-enjoy{
+
+.love-and-enjoy {
     padding: 0px;
     padding-left: 20px;
     border-left: 4px solid #FF900E;
 }
+
 .features-title {
     color: #727272;
     font-size: 3rem;
@@ -150,91 +151,126 @@ main {
     list-style: none;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .features-photo {
     width: 100%;
     border-radius: 10px;
 }
+
 /* feature love and enjoy section */
-.feature-love-container{
+.feature-love-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 120vh;
     margin-top: 3rem;
 }
-.feature-love-content{
-    width: 45%;
+
+.feature-love-content {
+    width: 40%;
+    height: 100%;
     margin-right: 3rem;
 }
-
-.section-title{
-
-}
-.feature-description{
-
-}
-
-.feater-enjoy{
-
-}
-.feature-love-photo{
+.feature-love-photo {
     width: 50%;
 }
-.feature-images{
+.feature-images {
+    height: 90%;
     width: 100%;
+}
+
+.feature-description {
+    width: 100%;
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: #727272;
+}
+
+.feater-enjoy h4 {
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+
+.feater-enjoy {
+    width: 95%;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    padding: 20px;
+    margin-bottom: 1rem;
+    color: #727272;
+    box-shadow: -3px -3px 20px 4px #dbd9d974;
+    background-color: #f7f3f38c;
 }
 
 
 
 /* responsive section */
+
 @media screen and (max-width:576px) {
     .header {
         padding: 20px;
     }
+
     main {
         padding: 0px;
     }
+
     .nav {
         display: block;
     }
-    
-    .features-section{
+
+    .features-section {
         padding: 0px;
         display: block;
 
     }
-    .features-gallery, .features-content {
+
+    .features-gallery,
+    .features-content {
         width: 90%;
         margin: 10px auto;
     }
-    .features-gallery ul{
-        grid-template-columns: repeat(1,1fr);
+
+    .features-gallery ul {
+        grid-template-columns: repeat(1, 1fr);
         margin: 20px auto;
         width: 80%;
     }
 }
 
 @media screen and (min-width:577px) and (max-width:980px) {
-    .header, main {
+
+    .header,
+    main {
         padding: 50px;
     }
 
     .nav {
         flex-direction: column;
     }
-    .features-gallery, .features-content{
+
+    .features-gallery,
+    .features-content {
         width: 100%;
     }
-    .features-gallery ul{
+
+    .features-gallery ul {
         margin: 20px auto;
         width: 100%;
     }
-    .features-section{
+
+    .features-section {
         display: block;
         width: 100%;
 
     }
-    
+
 }
