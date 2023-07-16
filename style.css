@@ -209,6 +209,20 @@ main {
     box-shadow: -3px -3px 20px 4px #dbd9d974;
     background-color: #f7f3f38c;
 }
+.Experience{
+    width: 10rem;
+    text-align: center;
+    padding: 30px 40px;
+    color: #fff;
+    background-color: #FF900E;
+    position: relative;
+    margin-top: -80px;
+    margin-left: -50px;
+    border-radius: 10px;
+}
+.Experience h2{
+    font-size: 2.5rem;
+}
 
 
 
@@ -216,25 +230,31 @@ main {
 
 @media screen and (max-width:576px) {
     .header {
-        padding: 20px;
+        width: 90%;
+        padding: 18px;
+        margin: 0px auto;
     }
 
-    main {
+    .nav, main, .features-section {
+        width: 95%;
+        display: block;
+        padding: 0px;
+        margin: 0px auto;
+    }
+    .nav > ul li {
+        padding: 5px;
+    }
+    .features-content{
         padding: 0px;
     }
-
-    .nav {
-        display: block;
+    .features-photo{
+        height: 15rem;
+    }
+    .banner-title{
+        font-size: 3.5rem;
     }
 
-    .features-section {
-        padding: 0px;
-        display: block;
-
-    }
-
-    .features-gallery,
-    .features-content {
+    .features-gallery, .features-content {
         width: 90%;
         margin: 10px auto;
     }
@@ -244,22 +264,52 @@ main {
         margin: 20px auto;
         width: 80%;
     }
+    
+    .feature-love-container{
+        display: block;
+        width: 90%;
+        justify-content: center;
+        margin-top: 50rem;
+        padding: 0px 1.2rem;
+        height: 132vh;
+    }
+
+    .feature-love-content{
+        width: 82%;
+        margin: 0px auto;
+    }
+    .feature-love-photo{
+        width: 82%;
+        margin: 0px auto;
+    }
+
+    .feater-enjoy {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .Experience{
+        text-align: center;
+        width: 70%;
+        margin: 20px auto;
+    }
 }
 
 @media screen and (min-width:577px) and (max-width:980px) {
 
-    .header,
-    main {
+    .header, main {
         padding: 50px;
     }
 
-    .nav {
+    .nav, .feature-love-container{
         flex-direction: column;
     }
 
     .features-gallery,
     .features-content {
         width: 100%;
+    }
+    .features-photo{
+        height: 16rem;
     }
 
     .features-gallery ul {
@@ -270,7 +320,23 @@ main {
     .features-section {
         display: block;
         width: 100%;
+        
+        height: auto;
 
+    }
+    .feature-love-content, .feature-love-photo{
+        width: 90%;
+        margin: 20px auto;
+        height: 100vh;
+    }
+    .feature-love-photo{
+        height: 110vh;
+    }
+    
+    .Experience{
+        position: static;
+        margin: 20px auto;
+        
     }
 
 }
