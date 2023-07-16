@@ -7,6 +7,25 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.section-title {
+    color: #131313;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #FF900E;
+    margin: 20px 0px 40px 0px;
+}
+
 /* header section */
 .header {
     background-color: rgba(255, 144, 14, 0.10);
@@ -35,13 +54,7 @@
     line-height: 1.5rem;
 }
 
-.nav-title {
-    color: #131313;
-    font-family: Work Sans;
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 700;
-}
+
 
 .nav ul li a {
     text-decoration: none;
@@ -71,18 +84,7 @@
     margin: 20px 0px;
 }
 
-.btn {
-    width: 150px;
-    height: 50px;
-    border: none;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 10px;
-    background-color: #FF900E;
-    margin: 20px 0px 40px 0px;
-}
+
 
 .btn:hover {
     background-color: #767272;
@@ -108,7 +110,11 @@ main {
     width: 45%;
     padding-left: 3rem;
 }
-
+.love-and-enjoy{
+    padding: 0px;
+    padding-left: 20px;
+    border-left: 4px solid #FF900E;
+}
 .features-title {
     color: #727272;
     font-size: 3rem;
@@ -150,6 +156,34 @@ main {
 .features-photo {
     width: 100%;
     border-radius: 10px;
+}
+/* feature love and enjoy section */
+.feature-love-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+}
+.feature-love-content{
+    width: 45%;
+    margin-right: 3rem;
+}
+
+.section-title{
+
+}
+.feature-description{
+
+}
+
+.feater-enjoy{
+
+}
+.feature-love-photo{
+    width: 50%;
+}
+.feature-images{
+    width: 100%;
 }
 
 
