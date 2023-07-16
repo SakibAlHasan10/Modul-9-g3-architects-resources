@@ -173,9 +173,11 @@ main {
     height: 100%;
     margin-right: 3rem;
 }
+
 .feature-love-photo {
     width: 50%;
 }
+
 .feature-images {
     height: 90%;
     width: 100%;
@@ -209,7 +211,8 @@ main {
     box-shadow: -3px -3px 20px 4px #dbd9d974;
     background-color: #f7f3f38c;
 }
-.Experience{
+
+.Experience {
     width: 10rem;
     text-align: center;
     padding: 30px 40px;
@@ -220,8 +223,41 @@ main {
     margin-left: -50px;
     border-radius: 10px;
 }
-.Experience h2{
+
+.Experience h2 {
     font-size: 2.5rem;
+}
+/* facts section */
+.facts-section{
+width: 100%;
+margin-top: 3rem;
+}
+
+
+.facts-descrive{
+    
+width: 90%;
+}
+
+.facts-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facts-card{
+width: 10rem;
+height: 10rem;
+text-align: center;
+border: 1px solid #FF900E;
+}
+.card-img{
+    padding-top:25px ;
+    padding-bottom: 20px;
+    width: 2rem ;
+    height: 2rem;
+}
+.card-des{
+    margin-top: 1rem;
 }
 
 
@@ -235,26 +271,33 @@ main {
         margin: 0px auto;
     }
 
-    .nav, main, .features-section {
+    .nav,
+    main,
+    .features-section {
         width: 95%;
         display: block;
         padding: 0px;
         margin: 0px auto;
     }
-    .nav > ul li {
+
+    .nav>ul li {
         padding: 5px;
     }
-    .features-content{
+
+    .features-content {
         padding: 0px;
     }
-    .features-photo{
+
+    .features-photo {
         height: 15rem;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 3.5rem;
     }
 
-    .features-gallery, .features-content {
+    .features-gallery,
+    .features-content {
         width: 90%;
         margin: 10px auto;
     }
@@ -264,8 +307,8 @@ main {
         margin: 20px auto;
         width: 80%;
     }
-    
-    .feature-love-container{
+
+    .feature-love-container {
         display: block;
         width: 90%;
         justify-content: center;
@@ -274,11 +317,12 @@ main {
         height: 132vh;
     }
 
-    .feature-love-content{
+    .feature-love-content {
         width: 82%;
         margin: 0px auto;
     }
-    .feature-love-photo{
+
+    .feature-love-photo {
         width: 82%;
         margin: 0px auto;
     }
@@ -287,7 +331,8 @@ main {
         width: 90%;
         margin-bottom: 15px;
     }
-    .Experience{
+
+    .Experience {
         text-align: center;
         width: 70%;
         margin: 20px auto;
@@ -296,11 +341,13 @@ main {
 
 @media screen and (min-width:577px) and (max-width:980px) {
 
-    .header, main {
+    .header,
+    main {
         padding: 50px;
     }
 
-    .nav, .feature-love-container{
+    .nav,
+    .feature-love-container {
         flex-direction: column;
     }
 
@@ -308,7 +355,8 @@ main {
     .features-content {
         width: 100%;
     }
-    .features-photo{
+
+    .features-photo {
         height: 16rem;
     }
 
@@ -320,23 +368,26 @@ main {
     .features-section {
         display: block;
         width: 100%;
-        
+
         height: auto;
 
     }
-    .feature-love-content, .feature-love-photo{
+
+    .feature-love-content,
+    .feature-love-photo {
         width: 90%;
         margin: 20px auto;
         height: 100vh;
     }
-    .feature-love-photo{
+
+    .feature-love-photo {
         height: 110vh;
     }
-    
-    .Experience{
+
+    .Experience {
         position: static;
         margin: 20px auto;
-        
+
     }
 
 }
