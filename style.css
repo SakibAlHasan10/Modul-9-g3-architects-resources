@@ -31,6 +31,7 @@
 .header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 200px;
+    height: 140vh;
 }
 
 /* nav section */
@@ -65,6 +66,7 @@
 .banner {
     margin-top: 50px;
     text-align: center;
+    height: 130vh;
 }
 
 .banner-contain {
@@ -99,7 +101,7 @@ main {
 }
 
 .features-section {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -192,7 +194,7 @@ main {
     color: #727272;
 }
 
-.feater-enjoy h4 {
+.feature-enjoy h4 {
     color: #000;
     font-size: 1.2rem;
     margin-bottom: 10px;
@@ -200,7 +202,7 @@ main {
 
 }
 
-.feater-enjoy {
+.feature-enjoy {
     width: 95%;
     font-size: 0.8rem;
     line-height: 1.2rem;
@@ -227,39 +229,78 @@ main {
 .Experience h2 {
     font-size: 2.5rem;
 }
+
 /* facts section */
-.facts-section{
-width: 100%;
-margin-top: 3rem;
+.facts-section {
+    width: 100%;
+    height: 70vh;
+    padding-top: 7rem;
 }
 
 
-.facts-descrive{
-    
-width: 90%;
+.facts-descrive {
+    width: 90%;
 }
 
-.facts-container{
+.facts-container {
+    margin: 5.5rem 0rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.facts-card{
-width: 10rem;
-height: 10rem;
-text-align: center;
-border: 1px solid #FF900E;
+.facts-card {
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    border-radius: 10px;
+    color: #767272;
+    border: 1px solid #FF900E;
 }
-.card-img{
-    padding-top:25px ;
-    padding-bottom: 20px;
-    width: 2rem ;
+
+.card-img {
+    padding-top: 25px;
+    padding-bottom: 8px;
+    width: 2rem;
     height: 2rem;
 }
-.card-des{
-    margin-top: 1rem;
+
+.card-title {
+    font-size: 2rem;
+    color: #524f4f;
+    margin: 0px;
+    padding: 0px;
 }
 
+.card-des {
+    margin-top: 8px;
+}
+
+/* Our Sponsors */
+.sponsors-container {
+    text-align: center;
+
+
+}
+
+.sponsors-des {
+    margin: 1.4rem auto;
+    font-size: 0.8rem;
+    color: #767272;
+    width: 30rem;
+}
+
+.sponsors-container ul {
+    margin-top:20px ;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+
+}
+.sponsors-container img{
+    width: 7rem;
+    margin:20px auto ;
+}
 
 
 /* responsive section */
@@ -288,7 +329,9 @@ border: 1px solid #FF900E;
         padding: 0px;
     }
 
-    .features-photo {
+    .features-photo,
+    .facts-section,
+    .facts-container {
         height: 15rem;
     }
 
@@ -336,6 +379,15 @@ border: 1px solid #FF900E;
         text-align: center;
         width: 70%;
         margin: 20px auto;
+    }
+
+    .facts-section {
+        height: 100vh;
+    }
+
+    .facts-card {
+        width: 75%;
+        margin: 0px auto;
     }
 }
 
